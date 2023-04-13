@@ -1,0 +1,6 @@
+.service-card {
+    position: relative;
+    background: linear-gradient(-144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+  }
