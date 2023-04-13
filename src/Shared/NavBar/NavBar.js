@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <nav class="w-full max-w-[1135px] mx-auto backdrop-blur navbar">
+        <nav class="w-full max-w-[1170px] mx-auto backdrop-blur navbar">
             <div class="xl:container m-auto px-6 md:px-12 lg:px-6">
                 <div class="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0 lg:py-5">
                     <div class="w-full items-center flex justify-between lg:w-auto">
