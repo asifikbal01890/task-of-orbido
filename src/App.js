@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import { RouterProvider } from 'react-router-dom';
+import router from './Routes/router';
+import { Toaster } from 'react-hot-toast';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 1000,
+    });
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RouterProvider
+        router={router}
+      ></RouterProvider>
+      <Toaster></Toaster>
     </div>
   );
 }
