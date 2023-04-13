@@ -1,0 +1,21 @@
+.text-linear-color {
+    background: linear-gradient(90deg, #1FD8CD 10.14%, #12BADF 49.71%, #C5018E 84.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-bg {
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+}
+
+.rewards-card:hover {
+    background: linear-gradient(
+        144.39deg,
+        #ffffff -278.56%,
+        #6d6d6d -78.47%,
+        #11101d 91.61%
+      );
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
