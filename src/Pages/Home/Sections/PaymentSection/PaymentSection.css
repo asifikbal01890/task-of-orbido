@@ -15,10 +15,37 @@
   border-image: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
   border-image-slice: 1;
 }
+
 .change-btn:hover {
   background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
   -webkit-background-clip: '';
   -webkit-text-fill-color: #ffffff;
   background-clip: '';
   border-image-slice: 0;
+}
+
+.payment-gradient {
+  position: absolute;
+  width: 345px;
+  height: 514px;
+  left: -303px;
+  top: 1182.05px;
+
+  background: rgba(232, 128, 7, 0.75);
+  filter: blur(450px);
+  border-radius: 200px;
+  transform: rotate(-20.01deg);
+}
+
+.payment-gradient-three {
+  position: absolute;
+  width: 345px;
+  height: 514px;
+  left: 69.97px;
+  top: 2231.45px;
+  
+  background: linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+  filter: blur(450px);
+  border-radius: 200px;
+  transform: rotate(156.61deg);
 }
