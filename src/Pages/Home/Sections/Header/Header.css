@@ -22,11 +22,12 @@
 }
 
 .hero-gradient {
+
+    position: absolute;
     width: 345px;
     height: 514px;
     left: 974px;
     top: -75.95px;
-
     background: #E88007;
     filter: blur(450px);
     border-radius: 200px;
@@ -39,7 +40,6 @@
     height: 544.07px;
     left: 1599.85px;
     top: 767px;
-
     background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
     filter: blur(325px);
     border-radius: 200px;

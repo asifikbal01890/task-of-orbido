@@ -7,52 +7,52 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer class="text-start text-[#ffffffb3] leading-[160%] w-full max-w-[1170px] mb-[30px] mx-auto">
+        <footer className="text-start text-[#ffffffb3] leading-[160%] w-full max-w-[1170px] mb-[30px] mx-auto">
             {/* ----------------- The upper part of the footer section start ---------------*/}
-            <div class="max-w-screen-xl px-4 pt-20 mx-auto sm:px-3 lg:px-8">
-                <div class="grid grid-cols-1 gap-8 lg:grid-cols-10">
+            <div className="max-w-screen-xl px-4 pt-20 mx-auto sm:px-3 lg:px-8">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-10">
                     <div className='col-span-4'>
                         <div className='flex items-center'>
                             <img className='lg:ml-[-40px] ml-[-20px]' src={logo} alt="" />
                             <p className='text-white font-semibold text-[40.576px]'>OR<span className='text-[#D69300]'>BIDO</span></p>
                         </div>
-                        <p class="max-w-xs mt-6 font-light text-lg">
+                        <p className="max-w-xs mt-6 font-light text-lg">
                             A new way to make the payments easy, reliable and secure.
                         </p>
                     </div>
                     <div className=' col-span-6'>
-                        <div class="lg:flex justify-between grid grid-cols-1 gap-8 sm:grid-cols-2">
+                        <div className="lg:flex justify-between grid grid-cols-1 gap-8 sm:grid-cols-2">
                             <div>
-                                <p class="font-medium text-lg">
+                                <p className="font-medium text-lg">
                                     Usefull Links
                                 </p>
-                                <nav class="flex flex-col mt-6 space-y-2 font-light">
-                                    <Link to={'/'} class="hover:opacity-75"> Content </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> How it Works </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Create </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Explore </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Teams & Services </Link>
+                                <nav className="flex flex-col mt-6 space-y-2 font-light">
+                                    <Link to={'/'} className="hover:opacity-75"> Content </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> How it Works </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Create </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Explore </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Teams & Services </Link>
                                 </nav>
                             </div>
                             <div>
-                                <p class="font-medium text-lg">
+                                <p className="font-medium text-lg">
                                     Community
                                 </p>
-                                <nav class="flex flex-col mt-6 space-y-2 font-light">
-                                    <Link to={'/'} class="hover:opacity-75"> Help Center </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Partners </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Suggestions </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Blog </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Newsletters </Link>
+                                <nav className="flex flex-col mt-6 space-y-2 font-light">
+                                    <Link to={'/'} className="hover:opacity-75"> Help Center </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Partners </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Suggestions </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Blog </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Newsletters </Link>
                                 </nav>
                             </div>
                             <div>
-                                <p class="font-medium text-lg">
+                                <p className="font-medium text-lg">
                                     Partner
                                 </p>
-                                <nav class="flex flex-col mt-6 space-y-2 font-light">
-                                    <Link to={'/'} class="hover:opacity-75"> Our Partner </Link>
-                                    <Link to={'/'} class="hover:opacity-75"> Become a Partner </Link>
+                                <nav className="flex flex-col mt-6 space-y-2 font-light">
+                                    <Link to={'/'} className="hover:opacity-75"> Our Partner </Link>
+                                    <Link to={'/'} className="hover:opacity-75"> Become a Partner </Link>
                                 </nav>
                             </div>
                         </div>

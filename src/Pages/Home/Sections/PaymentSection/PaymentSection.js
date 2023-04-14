@@ -10,6 +10,7 @@ import google from '../../../../Img/paymentimg/google.png';
 import apple from '../../../../Img/paymentimg/apple.png';
 import Transaction from './Transaction';
 import { toast } from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 
 const PaymentSection = () => {
 
@@ -46,7 +47,7 @@ const PaymentSection = () => {
             {/*---------------- Left side of this section start -----------------*/}
             <div className='relative'>
                 {/*--------- Last Transaction card start -----------*/}
-                <div className='payment-card px-5 pt-[26px] rounded-[9.12px] w-[335px] h-[292px]'>
+                <div data-aos="fade-right" className='payment-card px-5 pt-[26px] rounded-[9.12px] w-[335px] h-[292px]'>
                     <h3 className='text-[22px] font-semibold text-start mb-8'>Last Transaction</h3>
                     <div>
                         {
@@ -59,7 +60,7 @@ const PaymentSection = () => {
                 </div>
                 {/*--------- Last Transaction card end -----------*/}
                 {/*--------- paypal card start -----------*/}
-                <div className='payment-card rounded-[10px] w-[227px] h-[222px] p-5 absolute top-[-150px] left-[230px]'>
+                <div data-aos="flip-up" className='payment-card rounded-[10px] w-[227px] h-[222px] p-5 absolute top-[-150px] left-[230px]'>
                     <div className='flex items-center gap-[11.79px]'>
                         <div className='w-14 h-14 p-3 rounded-full bg-white'>
                             <img src={paypal} alt="" />
@@ -84,12 +85,12 @@ const PaymentSection = () => {
             </div>
             {/*---------------- Left side of this section end -----------------*/}
             {/*---------------- Right side of this section start -----------------*/}
-            <div className='text-start mt-20 lg:mt-[-92px] lg:ml-24 ml-3'>
+            <div data-aos="fade-left" className='text-start mt-20 lg:mt-[-92px] lg:ml-24 ml-3'>
                 <h1 className='text-5xl font-semibold leading-[160%]'>Easily control your billing & invoicing</h1>
                 <p className='text-[#ffffffb3] mt-6 font-[100]'>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat</p>
                 <div className='flex gap-8 mt-12'>
-                    <img src={apple} alt="" />
-                    <img src={google} alt="" />
+                    <Link to={'/'}><img src={apple} alt="" /></Link>
+                    <Link to={'/'}><img src={google} alt="" /></Link>
                 </div>
             </div>
              {/*---------------- Right side of this section end -----------------*/}
